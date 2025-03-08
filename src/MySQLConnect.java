@@ -21,7 +21,7 @@ public class MySQLConnect {
             Statement statement = connection.createStatement();
 
             // Create the students table if it does not exist
-            String createTableSQL = "CREATE TABLE IF NOT EXISTS hello (" +
+            String createTableSQL = "CREATE TABLE IF NOT EXISTS Key (" +
                     "id INT AUTO_INCREMENT PRIMARY KEY, " +
                     "name VARCHAR(100) NOT NULL, " +
                     "age INT NOT NULL, " +
